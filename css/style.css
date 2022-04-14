@@ -1,0 +1,893 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root {
+    --color--: #5454D4;
+    --color1--: #F04037;
+    --color2--: #FFFFFFB3;
+    --color3--: #FEDC5A;
+    --color4--: #696871;
+    --color5--: #413E65;
+    --color6--: #F7F7FB;
+}
+
+.container-fluid {
+    width: 1366px;
+    margin: 0 auto;
+    background: url(../img/Oval\ \(3\).png) no-repeat 0 0;
+}
+
+header .navbar .container {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar h1 {
+    font-family: sans-serif;
+}
+
+header .navbar .navtitle {
+    display: flex;
+    list-style: none;
+}
+
+header .navbar .navtitle li {
+    padding: 0 25px;
+}
+
+header .navbar .navtitle li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: .60s;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+header .navbar .navtitle li a:hover {
+    color: var(--color--);
+}
+
+header .navbar .navtitle .navli a {
+    border: 1px solid var(--color1--);
+    padding: 10px 20px;
+    color: var(--color1--);
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 5px;
+    transition: .60s;
+}
+
+header .navbar .navtitle .navli a:hover {
+    color: white;
+    background: var(--color1--);
+}
+
+header .main .container {
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+}
+
+header .main .maintext {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+header .main .maintext h2 {
+    font-family: sans-serif;
+    font-size: 50px;
+    width: 60%;
+}
+
+header .main .maintext p {
+    color: var(--color4--);
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 70%;
+    margin: 20px 0px;
+    line-height: 30px;
+}
+
+header .main .maintext .lolink a {
+    border: 1px solid var(--color1--);
+    padding: 10px 30px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: var(--color1--);
+    font-weight: bold;
+    border-radius: 5px;
+    transition: .60s;
+}
+
+header .main .maintext .lolink a:hover {
+    background: var(--color1--);
+    color: white;
+}
+
+header .main .maintext .iconslink {
+    margin-top: 20px;
+}
+
+header .main .maintext .iconslink a {
+    color: #5454D4;
+    text-decoration: none;
+}
+
+header .main .mainimg {
+    margin-right: 100px;
+}
+
+header .main .mainimg .maininfor {
+    position: absolute;
+    background-color: var(--color--);
+    width: 320px;
+    top: 10%;
+    border-radius: 5px;
+    height: 60px;
+    right: 20%;
+}
+
+header .main .mainimg .maininfor h3 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 16px 10px;
+}
+
+header .main .mainimg .maininfor h3 .bx {
+    border: 1px solid var(--color3--);
+    border-radius: 50%;
+    padding: 4px 5px;
+    background: var(--color3--);
+}
+
+header .main .mainimg .maininfor2 {
+    position: absolute;
+    background: var(--color3--);
+    border-radius: 5px;
+    width: 300px;
+    height: 65px;
+    bottom: 20%;
+    left: 75%;
+}
+
+header .main .mainimg .maininfor2 h2 {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+header .main .mainimg .maininfor2 h2 .bx {
+    border: 1px solid var(--color--);
+    background-color: var(--color--);
+    border-radius: 50%;
+    padding: 5px 6px;
+    color: white;
+    margin: 17px 10px;
+}
+
+header .navbar .navtitle .every {
+    position: relative;
+}
+
+header .navbar .navtitle .every .content {
+    position: absolute;
+    z-index: 1;
+    width: 180px;
+    height: 140px;
+    list-style: none;
+    left: 0%;
+    padding: 10px 0px;
+    display: none;
+    border-top: 2px solid var(--color--);
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+}
+
+header .navbar .navtitle .every .content li {
+    padding: 6px 0px;
+    background-color: white;
+    text-align: center;
+}
+
+header .navbar .navtitle .every:hover .content {
+    display: block;
+}
+
+header .navbar .navtitle .every .content li a .content1 {
+    position: relative;
+}
+
+header .navbar .navtitle .every .content1 .every1 {
+    position: absolute;
+    right: 100%;
+    width: 180px;
+    list-style: none;
+    display: none;
+    z-index: 1;
+    border-top: 3px solid #F04037;
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+}
+
+header .navbar .navtitle .every .content .content1:hover .every1 {
+    display: block;
+}
+
+.main1 .section1 {
+    margin-top: 100px;
+}
+
+.main1 .section1 .seclogos ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.main1 .section1 fieldset {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    color: var(--color4--);
+}
+
+.main1 .section2 {
+    background: var(--color--);
+    border-end-end-radius: 40%;
+}
+
+.main1 .section2 .container {
+    display: flex;
+    align-items: center;
+    background: url(../img/Oval\ \(4\).png) no-repeat;
+    background-position: right;
+    background-position-y: top;
+    margin-top: 30px;
+}
+
+.main1 .section2 .sec2div {
+    margin-left: 50px;
+}
+
+.main1 .section2 .sec2div .div1 {
+    background: white;
+    width: 200px;
+    height: 205px;
+    margin: 50px 0px;
+    border-radius: 5px;
+    transition: .60s;
+}
+
+.main1 .section2 .sec2div .div2 {
+    background: white;
+    width: 200px;
+    height: 205px;
+    margin: 50px 0px;
+    border-radius: 5px;
+    transition: .60s;
+}
+
+.main1 .section2 .sec2div .div3 {
+    background: white;
+    width: 200px;
+    transition: .60s;
+    height: 205px;
+    margin: 50px 0px;
+    border-radius: 5px;
+}
+
+.main1 .section2 .sec2div .div4 {
+    background: white;
+    width: 200px;
+    transition: .60s;
+    height: 205px;
+    margin: 50px 0px;
+    border-radius: 5px;
+}
+
+.main1 .section2 .sec2div .div1 .bx {
+    border: 1px solid var(--color1--);
+    background: rgba(240, 64, 55, 0.097195);
+    border-radius: 50%;
+    padding: 10px 11px;
+    font-size: 19px;
+    color: var(--color1--);
+    margin: 15px 20px;
+}
+
+.main1 .section2 .sec2div .div2 .bx {
+    border: 1px solid var(--color3--);
+    background: rgba(254, 220, 90, 0.1);
+    border-radius: 50%;
+    padding: 10px 11px;
+    font-size: 19px;
+    color: var(--color3--);
+    margin: 15px 20px;
+}
+
+.main1 .section2 .sec2div .div3 .bx {
+    border: 1px solid var(--color--);
+    background: rgba(84, 84, 212, 0.1);
+    border-radius: 50%;
+    padding: 10px 11px;
+    font-size: 19px;
+    color: var(--color--);
+    margin: 15px 20px;
+}
+
+.main1 .section2 .sec2div .div4 .bx {
+    border: 1px solid var(--color5--);
+    background: rgba(65, 62, 101, 0.1);
+    border-radius: 50%;
+    padding: 10px 11px;
+    font-size: 19px;
+    color: var(--color5--);
+    margin: 15px 20px;
+}
+
+.main1 .section2 .sec2div .div1 h3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 10px 15px;
+
+}
+
+.main1 .section2 .sec2div .div2 h3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 10px 15px;
+
+}
+
+.main1 .section2 .sec2div .div3 h3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 10px 15px;
+
+}
+
+.main1 .section2 .sec2div .div4 h3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 10px 15px;
+
+}
+
+.main1 .section2 .sec2div .div4 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 10px 10px;
+    line-height: 25px;
+    color: var(--color4--);
+}
+
+.main1 .section2 .sec2div .div1 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 10px 10px;
+    line-height: 25px;
+    color: var(--color4--);
+}
+
+.main1 .section2 .sec2div .div3 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 10px 10px;
+    line-height: 25px;
+    color: var(--color4--);
+}
+
+.main1 .section2 .sec2div .div2 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 10px 10px;
+    line-height: 25px;
+    color: var(--color4--);
+}
+
+.main1 .section2 .sec2div .div1:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+}
+
+.main1 .section2 .sec2div .div2:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+}
+
+.main1 .section2 .sec2div .div3:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+}
+
+.main1 .section2 .sec2div .div4:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 52px 54px rgba(65, 62, 101, 0.296766);
+}
+
+.main1 .section2 .sectextsin {
+    margin-left: 50px;
+}
+
+.main1 .section2 .sectextsin h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+    width: 60%;
+}
+
+.main1 .section2 .sectextsin p {
+    color: var(--color2--);
+    font-family: sans-serif;
+    width: 75%;
+    margin: 10px 0px;
+    line-height: 30px;
+}
+
+.main1 .section2 .sectextsin a {
+    text-decoration: none;
+    border: 1px solid var(--color1--);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: .60s;
+}
+
+.main1 .section2 .sectextsin a:hover {
+    background: var(--color1--);
+
+}
+
+.main1 .section3 .container {
+    display: flex;
+    align-items: center;
+    background: url(../img/BG\ \(2\).png) no-repeat;
+    background-position-x: 580px;
+    background-size: 450px;
+    padding-bottom: 100px;
+}
+
+.main1 .section3 .sec3texts {
+    margin-left: 50px;
+}
+
+.main1 .section3 .sec3texts h2 {
+    font-family: sans-serif;
+    font-size: 45px;
+    width: 70%;
+}
+
+.main1 .section3 .sec3texts p {
+    color: var(--color4--);
+    font-family: sans-serif;
+    width: 64%;
+    line-height: 30px;
+    margin: 20px 0px;
+
+}
+
+.main1 .section3 .sec3texts a {
+    color: var(--color1--);
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 1px solid var(--color1--);
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: .60s;
+}
+
+.main1 .section3 .sec3texts a:hover {
+    background: var(--color1--);
+    color: white;
+}
+
+.main1 .section3 .sec3imgs {
+    position: relative;
+}
+
+.main1 .section3 .sec3imgs img {
+    width: 340px;
+    margin-right: 130px;
+    margin-top: 50px;
+}
+
+.main1 .section3 .sec3imgs .possec3 {
+    background: var(--color3--);
+    width: 280px;
+    height: 100px;
+    border-radius: 5px;
+    position: absolute;
+    top: 60%;
+    right: 75%;
+    display: flex;
+    transition: .60s;
+}
+
+.main1 .section3 .sec3imgs .possec3:hover {
+    transform: scale(1.1);
+}
+
+.main1 .section3 .sec3imgs .possec3 .icons .bx {
+    border: 1px solid var(--color--);
+    padding: 10px 11px;
+    color: white;
+    border-radius: 50%;
+    background-color: var(--color--);
+    margin: 20px 20px;
+}
+
+.main1 .section3 .sec3imgs .possec3 .itext p {
+    font-size: 14px;
+    color: var(--color4--);
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.main1 .section3 .sec3imgs .possec3 .itext h3 {
+    font-family: sans-serif;
+}
+
+.main1 .section4 {
+    background: var(--color6--);
+    padding-top: 200px;
+    padding-top: 100px;
+    border-top-right-radius: 40%;
+}
+
+.main1 .section4 .container {
+    display: flex;
+    align-items: center;
+    background: url(../img/BG\ \(3\).png) no-repeat;
+    background-size: 450px;
+    position: relative;
+}
+
+.main1 .section4 .sec4imgs img {
+    width: 340px;
+    margin-left: 20px;
+    padding-bottom: 90px;
+    margin-top: 50px;
+}
+
+.main1 .section4 .sec4imgs .possec4:hover {
+    transform: scale(1.1);
+}
+
+.main1 .section4 .sec4imgs .possec4 {
+    background: var(--color1--);
+    width: 250px;
+    transition: .60s;
+    cursor: pointer;
+    height: 100px;
+    border-radius: 5px;
+    position: absolute;
+    top: 25%;
+    right: 81%;
+    display: flex;
+}
+
+.main1 .section4 .sec4imgs .possec4 .icons .bx {
+    border: 1px solid var(--color--);
+    background: var(--color--);
+    color: white;
+    padding: 10px 11px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+.main1 .section4 .sec4imgs .possec4 .itext p {
+    color: var(--color2--);
+    margin-top: 10px;
+}
+
+.main1 .section4 .sec4imgs .possec4 .itext h3 {
+    font-family: sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+
+.main1 .section4 .sec4text {
+    margin-left: 150px;
+}
+
+.main1 .section4 .sec4text h2 {
+    font-size: 45px;
+    width: 60%;
+    font-family: sans-serif;
+}
+
+.main1 .section4 .sec4text p {
+    color: var(--color4--);
+    font-family: sans-serif;
+    line-height: 30px;
+    width: 68%;
+    margin: 20px 0px;
+}
+
+.main1 .section4 .sec4text .phonediv {
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    margin: 10px 0px;
+    display: flex;
+    border-radius: 5px;
+    transition: .60s;
+    cursor: pointer;
+}
+
+.main1 .section4 .sec4text .phonediv:hover {
+    transform: scale(1.1);
+}
+
+.main1 .section4 .sec4text .phonediv .bx {
+    color: var(--color1--);
+    background: rgba(240, 64, 55, 0.097195);
+    border: 1px solid var(--color1--);
+    border-radius: 50%;
+    padding: 10px 11px;
+    margin: 10px 10px;
+}
+
+.main1 .section4 .sec4text .phonediv h3 {
+    font-family: sans-serif;
+    font-size: 17px;
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.main1 .section4 .sec4text .phonediv1 {
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    margin: 10px 0px;
+    display: flex;
+    border-radius: 5px;
+    transition: .60s;
+    cursor: pointer;
+}
+
+.main1 .section4 .sec4text .phonediv1:hover {
+    transform: scale(1.1);
+}
+
+.main1 .section4 .sec4text .phonediv1 .bx {
+    color: var(--color--);
+    background: rgba(84, 84, 212, 0.1);
+    border: 1px solid var(--color--);
+    border-radius: 50%;
+    padding: 10px 11px;
+    margin: 10px 10px;
+}
+
+.main1 .section4 .sec4text .phonediv1 h3 {
+    font-family: sans-serif;
+    font-size: 17px;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+span {
+    color: var(--color4--);
+}
+
+.main1 .section5 h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 30%;
+    margin-left: 400px;
+    padding: 100px 0px;
+}
+
+.main1 .section5 .sec4title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1 .section5 .sec4title .secdiv1 {
+    border: 1px solid #EAE9F2;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    transition: .60s;
+}
+
+.main1 .section5 .sec4title .secdiv1 .divsimg1 {
+    display: flex;
+    align-items: center;
+}
+
+.main1 .section5 .sec4title .secdiv1:hover {
+    transform: scale(1.1);
+}
+
+.main1 .section5 .sec4title .secdiv1 .divsimg1 img {
+    margin: 20px 15px;
+}
+
+.main1 .section5 .sec4title .secdiv1 .divsimg1 .h3s1 h3 {
+    font-family: sans-serif;
+}
+
+.main1 .section5 .sec4title .secdiv1 .divsimg1 a {
+    text-decoration: none;
+    color: var(--color4--);
+}
+
+.main1 .section5 .sec4title .secdiv1 .divsimg1 .bx {
+    color: var(--color--);
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.main1 .section5 .sec4title .secdiv1 p {
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+    width: 90%;
+    line-height: 30px
+}
+
+.main1 .section5 .sec4title .secdiv1 p span {
+    color: var(--color--);
+}
+
+.main1 .section5 .sec5icond {
+    margin: 50px 0px;
+}
+
+.main1 .section5 .sec5icond a {
+    padding-left: 480px;
+    text-decoration: none;
+    color: var(--color--)
+}
+
+.footer {
+    background: #19191B;
+}
+
+.footer .sectionfoot1 {
+    background: url(../img/Oval\ \(8\).png) no-repeat;
+    background-size: 350px;
+}
+
+.footer .sectionfoot1 h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.footer .sectionfoot1 p {
+    color: var(--color2--);
+    font-family: sans-serif;
+    width: 38%;
+    line-height: 30px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+.footer .sectionfoot1 .inoutr {
+    margin-top: 20px;
+}
+
+.footer .sectionfoot1 .inouty {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.footer .sectionfoot1 input {
+    outline: none;
+    border: none;
+    padding: 15px 100px;
+    margin-left: 390px;
+    border-radius: 5px;
+}
+
+.footer .sectionfoot1 a {
+    text-decoration: none;
+    border: 1px solid var(--color1--);
+    color: white;
+    padding: 15px 132px;
+    border-radius: 5px;
+    margin-left: 390px;
+    transition: .60s;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+.footer .sectionfoot1 a:hover {
+    background: var(--color1--);
+}
+
+.footer1 .fotabu {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    margin-top: 100px;
+}
+
+.footer1 .fotabu .fot1 .h2g {
+    color: white;
+}
+
+.footer1 .fotabu .fot1 p {
+    color: white;
+    padding: 10px 0px;
+    line-height: 30px;
+    font-family: sans-serif;
+}
+
+.footer1 .fotabu .fot1 a {
+    color: white;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px 6px;
+    background: var(--color7--);
+}
+
+.footer1 .fotabu .fot2 h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer1 .fotabu .fot2 .fotitem1 {
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer1 .fotabu .fot2 .fotitem1 li a {
+    text-decoration: none;
+    color: var(--color2--);
+    font-family: sans-serif;
+}
+
+.footer1 .fotabu .fot2 .fotitem1 li .qwertt {
+    text-decoration: none;
+    color: var(--color2--);
+    font-family: sans-serif;
+}
+.lastfoot{
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+.lastfoot a{
+    text-decoration: none;
+    color: var(--color4--);
+}
+.lastfoot .lastil{
+    list-style: none;
+    display: flex;
+}
+.lastfoot .lastil li {
+    padding: 0 10px;
+    font-size: 20px;
+}
+.lastfoot .lastil li a:hover{
+    color: var(--color--);
+}
